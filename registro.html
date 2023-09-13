@@ -1,22 +1,55 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png">
+    </header>
+    <div class="container">
+        <form action="#" method="post">
+            <label for="nombre">Nombre de Usuario:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="rut">RUT sin puntos y con guion:</label>
+            <input type="text" id="rut" name="rut" required>
+            
+            <label for="region">Región:</label>
+            <select id="region" name="region" required>
+                <option value="region1">Región 1</option>
+                <option value="region2">Región 2</option>
+                <option value="region3">Región 3</option>
+                <!-- Agrega más opciones de región según sea necesario -->
+            </select>
+
+            <label for="comuna">Comuna:</label>
+            <input type="text" id="comuna" name="comuna" required>
+
+            <label for="email">Ingrese Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirm-password">Confirme Contraseña:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <label>
+                <input type="checkbox" id="terminos" name="terminos" required>
+                Acepto los términos y condiciones
+            </label>
+            
+            <button type="submit">REGISTRARSE</button>
+        </form>
+    </div>
+
+    <footer>
         
-        <script src="" async defer></script>
-    </body>
+    </footer>
+</body>
 </html>
