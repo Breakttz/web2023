@@ -1,3 +1,17 @@
+.center-nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+}
+
+@media (max-width:768px){
+    .center-nav > img{
+        width: 400px;  
+      }
+    
+}
 body {
     background-color: #0a132d !important;
     margin: 0;
