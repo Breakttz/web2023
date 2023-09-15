@@ -5,9 +5,10 @@ header {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #0A142C !important;
     margin: 0 !important;
     padding: 0 !important;
+    background: linear-gradient(to bottom, #0a132d, #000000) !important;
+    height: 100vh;
 }
 
 ul {
