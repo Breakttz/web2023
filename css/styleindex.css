@@ -1,0 +1,183 @@
+.navar{
+    background-color: #0A142C;
+    width: 100%;
+    height: 100px;
+}
+
+.nav-item{
+    background-color: #008CDB;
+    color: white;
+    margin: 1vh;
+    font-size: 120%;
+    height: 50px;
+}
+.nav a{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.nav {
+    background-color: #0A142C !important;
+    width: 100%;
+    height: 70px;
+}
+
+body{
+    background-color: #0A142C !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.carousel-caption h2{
+    text-align: left;
+    font-size: 5vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.carousel-caption p{
+    text-align: left;
+    font-size: x-large;
+}
+.carousel-caption {
+    text-align: left;
+    top: 200px;;
+}
+
+.slider img{
+    height:100vh;
+    width: 100vw;
+}
+
+*{
+    margin: 0;
+}
+main{
+    background-color: #0A142C;
+    width:100%;
+    height: calc(100vh - 120px );
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.section-left{
+    background-color: #0A142C;
+    width: 70%;
+    height: 100%;
+    border-radius: 3%;
+    margin: 2rem;;
+    border-radius: 2%;
+    border: solid black;
+}
+
+.aside-right{
+    background-color: #0A142C;
+    width: 40%;
+    height: 100%;
+    border-radius: 3%;
+    margin: 2rem;;
+    border-radius: 2%;
+    border: solid black;
+}
+
+footer{
+    background-color: #0a2c10;
+    border-radius: 20px;
+    color:white;
+    font-size: 100px;
+    height: 200px;
+    margin:20px ;
+    text-align: center;
+}
+
+/* IMAGENES DE MAIN/*/
+.contenedor-noticias-left {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0A142C;
+    text-align: center; /* Centra horizontalmente el contenido */
+}
+
+.contenedor-img-left {
+    width: 200px; /* Establece el ancho deseado para tus imágenes */
+    height: auto; /* Establece la altura deseada para tus imágenes */
+    border: 1px solid #262b28da;
+    border-radius: 20px;
+    color: #f5f5f5;
+    background-color: #1D2C52;
+    margin: 2rem; /* Reduje el margen para un mejor espaciado */
+
+}
+
+.contenedor-img-left img {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+    max-height: 100%; /* Asegura que las imágenes se ajusten a la altura del contenedor */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra de color negro con cierta opacidad */
+}
+
+.noticias-left{
+    margin: 1rem;
+    text-align: center; /* titulo de noticias recientes centrado*/
+    background-color: #0A142C;
+    color: white;
+}
+
+.texto-noticias-left{
+    padding: 10px;
+
+}
+
+/* Texto noticias right*/
+
+.contenedor-noticias-right {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0A142C;
+    text-align: center; /* Centra horizontalmente el contenido */
+}
+
+.contenedor-img-right {
+    width: 150px; /* Establece el ancho deseado para tus imágenes */
+    height: auto; /* Establece la altura deseada para tus imágenes */
+    border: 1px solid #262b28da;
+    border-radius: 20px;
+    color: #f5f5f5;
+    background-color: #1D2C52;
+    display: table-footer-group;
+    margin: 5em; /* Reduje el margen para un mejor espaciado */
+
+}
+
+.contenedor-img-right img {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al ancho del contenedor */
+    max-height: 100%; /* Asegura que las imágenes se ajusten a la altura del contenedor */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra de color negro con cierta opacidad */
+    border-radius: 20px;
+}
+
+.noticias-right{
+    margin: 1rem;
+    text-align: center; /* titulo de noticias recientes centrado*/
+    background-color: #0A142C;
+    color: white;
+}
+
+.texto-noticias-right{
+    padding: 10px;
+    font-size: 10px;
+
+}
+
+.section-mas-recientes{
+    background-color: #89227f;
+    border-radius: 20px;
+    color:white;
+    font-size: 100px;
+    height: 200px;
+    margin:20px ;
+    text-align: center;
+}
