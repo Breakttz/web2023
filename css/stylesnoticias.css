@@ -1,0 +1,38 @@
+header {
+    background-color: #0A142C !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color:#0A142C !important;
+    height: 100%;
+}
+
+
+.nav-item{
+    background-color: #008CDB !important;
+    color: white;
+    margin: 1vh;
+}
+
+ul.noticias{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+
+ul.noticias li{
+    margin: 2vh ;
+    width: 42vh ;
+    height:auto;
+    border:1px solid #262b28da ;
+    color: #f5f5f5;
+    background-color: #1D2C52;
+}
+
+section.noticias img {
+    width:42vh;
+    height: 40vh;
+}
