@@ -1,0 +1,73 @@
+.navar{
+    background-color: #0A142C;
+    width: 100%;
+    height: 100px;
+}
+
+.nav-item{
+    background-color: #008CDB;
+    color: white;
+    margin: 1vh;
+    font-size: 120%;
+    height: 50px;
+}
+.nav a{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.nav {
+    background-color: #0A142C !important;
+    width: 100%;
+    height: 70px;
+}
+
+body{
+    background-color: #0A142C !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.titulo-normativas h1 {
+    text-align: center;
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px; /* Ajusta el margen superior según tu preferencia */
+    margin-block-end: 100px !important;
+}
+
+.contenedor-principal {
+    position: relative; /* Establece una posición relativa en el contenedor */
+    height: 60vw;
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-principal::before {
+    content: ''; /* Agrega contenido al pseudo-elemento */
+    position: absolute; /* Establece una posición absoluta en relación con el contenedor principal */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/fondonormativas.jpg);
+    background-size: cover;
+    opacity: 0.5; /* Establece la opacidad del fondo de la imagen */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido del contenedor */
+}
+
+p {
+    margin: 360px; /* Ajusta el margen según tu preferencia */
+    color: #ffffff; /* Cambia el color de texto a un tono más oscuro */
+    font-size: 20px; /* Aumenta el tamaño de fuente según tu preferencia */
+    line-height: 1.5; /* Añade espacio entre líneas para mejorar la legibilidad */
+}
+
+footer{
+    background-color: #0A142C;
+    border-radius: 20px;
+    color:white;
+    font-size: 100px;
+    height: 200px;
+    margin:20px ;
+    text-align: center;
+}
