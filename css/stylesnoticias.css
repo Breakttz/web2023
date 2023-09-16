@@ -7,7 +7,7 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     background-color:#0A142C !important;
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -17,23 +17,22 @@ body {
     margin: 1vh;
 }
 
-ul{
+ul.noticias{
     list-style: none;
     display:flex;
-    
     justify-content: center;
 }
 
-ul li{
-    margin: 2vh;
-    width: 42vh;
+ul.noticias li{
+    margin: 2vh ;
+    width: 42vh ;
     height:auto;
-    border:1px solid #262b28da;
+    border:1px solid #262b28da ;
     color: #f5f5f5;
     background-color: #1D2C52;
 }
 
-section img{
+section.noticias img {
     width:42vh;
     height: 40vh;
 }

@@ -7,7 +7,7 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     background-color:#0A142C !important;
-    height: 100vh;
+    height: 100%;
 
 }
 
@@ -23,13 +23,13 @@ section.fondo{
     background-size: cover;
 }
 
-ul{
+ul.body-superior {
     list-style: none;
     display:flex;
     justify-content: center;
 }
 
-ul li{
+ul.body-superior li{
     padding: 8vh;
     margin:4vh;
     width:20vh;
