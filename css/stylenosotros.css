@@ -1,0 +1,123 @@
+.navar{
+    background-color: #0A142C;
+    width: 100%;
+    height: 100px;
+}
+
+.nav-item{
+    background-color: #008CDB;
+    color: white;
+    margin: 1vh;
+    font-size: 120%;
+    height: 50px;
+}
+.nav a{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.nav {
+    background-color: #0A142C !important;
+    width: 100%;
+    height: 70px;
+}
+
+body{
+    background-color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.titulo-normativas h1 {
+    text-align: center;
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px; /* Ajusta el margen superior según tu preferencia */
+    margin-block-end: 100px !important;
+}
+
+.contenedor-principal {
+    position: relative; /* Establece una posición relativa en el contenedor */
+    height: 60vw;
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-principal::before {
+    content: ''; /* Agrega contenido al pseudo-elemento */
+    position: absolute; /* Establece una posición absoluta en relación con el contenedor principal */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/fondoaboutus.jpg);
+    background-size: inherit;
+    opacity: 0.2; /* Establece la opacidad del fondo de la imagen */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido del contenedor */
+}
+
+
+
+footer{
+    background-color: #0A142C;
+    border-radius: 20px;
+    color:white;
+    font-size: 100px;
+    height: 200px;
+    margin:20px ;
+    text-align: center;
+}
+.contenedor-sec {
+    position: relative;
+    height: 60vw;
+    width: 100%;
+    padding: 10px;
+    color: #ffffff; /* Cambia el color de texto a blanco para que sea visible en la imagen de fondo */
+}
+
+.contenedor-sec {
+    position: relative;
+    height: 60vw;
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-sec::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.texto-aboutus {
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    margin: 0;
+    color: #ffffff; /* Asegura que el texto sea legible */
+    font-size: 20px;
+    line-height: 1.5;
+}
+.help{
+    background-color: aqua;
+    display: flex;
+}
+.opciones-help{
+    display: flex;
+}
+.lista-de-texto li{
+    width: 100vw;
+    height: 8rem;
+    background-color: #0A142C;
+    margin: 20px;
+    color: #ffffff;
+    list-style: none;
+    text-align: left;
+    font-size: xx-large;
+}
