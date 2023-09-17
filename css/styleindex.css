@@ -79,16 +79,6 @@ main{
     border: solid black;
 }
 
-footer{
-    background-color: #0a2c10;
-    border-radius: 20px;
-    color:white;
-    font-size: 100px;
-    height: 200px;
-    margin:20px ;
-    text-align: center;
-}
-
 /* IMAGENES DE MAIN/*/
 .contenedor-noticias-left {
     list-style: none;

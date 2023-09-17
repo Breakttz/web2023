@@ -45,6 +45,7 @@ body{
 .contenedor-principal::before {
     content: ''; /* Agrega contenido al pseudo-elemento */
     position: absolute; /* Establece una posición absoluta en relación con el contenedor principal */
+    margin: 10px;
     top: 0;
     left: 0;
     width: 100%;
@@ -55,30 +56,15 @@ body{
     z-index: -1; /* Coloca el pseudo-elemento detrás del contenido del contenedor */
 }
 
-
-
-footer{
-    background-color: #0A142C;
-    border-radius: 20px;
-    color:white;
-    font-size: 100px;
-    height: 200px;
-    margin:20px ;
-    text-align: center;
-}
 .contenedor-sec {
     position: relative;
     height: 60vw;
     width: 100%;
     padding: 10px;
     color: #ffffff; /* Cambia el color de texto a blanco para que sea visible en la imagen de fondo */
-}
-
-.contenedor-sec {
-    position: relative;
-    height: 60vw;
-    width: 100%;
-    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .contenedor-sec::before {
@@ -93,24 +79,7 @@ footer{
     z-index: -1;
 }
 
-.texto-aboutus {
-    position: relative;
-    z-index: 1;
-}
 
-p {
-    margin: 0;
-    color: #ffffff; /* Asegura que el texto sea legible */
-    font-size: 20px;
-    line-height: 1.5;
-}
-.help{
-    background-color: aqua;
-    display: flex;
-}
-.opciones-help{
-    display: flex;
-}
 .lista-de-texto li{
     width: 100vw;
     height: 8rem;
@@ -120,4 +89,8 @@ p {
     list-style: none;
     text-align: left;
     font-size: xx-large;
+}
+
+footer{
+    margin-top: 20px;
 }
